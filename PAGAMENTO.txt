@@ -1,0 +1,23 @@
+Algoritmo "Pagamento"
+
+
+
+
+Var
+nome:caractere
+valor,pagamento,hora:real
+
+Inicio
+escreva("Nome:")
+leia(nome)
+escreva("Valor por hora:")
+leia(valor)
+escreva("Horas trabalhadas:")
+leia(hora)
+
+pagamento <- hora*valor
+
+escreval("O pagamento para ",nome," deve ser ",pagamento:8:2)
+
+
+Fimalgoritmo

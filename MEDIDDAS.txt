@@ -1,0 +1,28 @@
+Algoritmo "Mediddas"
+
+
+
+
+Var
+A,B,C,area1,area2,area3:real
+
+
+
+Inicio
+escreva("Digite a medida A:")
+leia(A)
+escreva("Digite a medida B:")
+leia(B)
+escreva("Digite a medida C:")
+leia(C)
+
+area1 <- A * A
+area2 <- A * B /2
+area3 <- (A+B)*C /2
+
+escreval("AREA DO QUADRADO =",area1:8:4)
+escreval("AREA DO TRIANGULO =",area2:8:4)
+escreval("AREA DO TRAPEZIO =",area3:8:4)
+
+
+Fimalgoritmo

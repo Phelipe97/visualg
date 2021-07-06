@@ -1,0 +1,22 @@
+Algoritmo "tempo de jogo"
+
+Var
+horaInicial,horaFinal,duracao:inteiro
+
+Inicio
+escreva("hora inicial:")
+leia(horaInicial)
+escreva("hora final:")
+leia(horaFinal)
+
+se horaFinal > horaInicial entao
+   duracao <- horaFinal-horaInicial
+   senao
+   duracao <- (24-horaInicial)+horaFinal
+   fimse
+
+escreval("O jogo durou",duracao," hora(s)")
+
+
+
+Fimalgoritmo

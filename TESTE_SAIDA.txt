@@ -1,0 +1,24 @@
+Algoritmo  "teste_saida"
+
+Var
+produto1,produto2,genero:caractere
+preco1,preco2:real
+idade,codigo:inteiro
+
+
+
+Inicio
+ produto1 <-"computador"
+ produto2 <-"celular"
+ preco1<-1600,40
+ preco2<-2000,90
+ idade<-25
+ codigo<-5779
+ genero<-"Masculino"
+
+ escreval(" O ", produto1 ," custa ",preco2," reais enquanto a ",produto2," custa ",preco1," reais.")
+ escreval()
+ escreval(" Codigo: ",codigo)
+ escreval()
+ escreval("Idade de ",idade," pertencente ao sexo ",genero)
+Fimalgoritmo

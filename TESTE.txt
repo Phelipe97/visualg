@@ -1,0 +1,11 @@
+Algoritmo  "teste"
+
+Var
+a:real
+
+
+Inicio
+ a<-2.678;
+
+ escreval("+", a:4:2, "+")
+Fimalgoritmo
