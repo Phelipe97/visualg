@@ -1,0 +1,36 @@
+Algoritmo "combustivel"
+
+Var
+
+   codigo, etanol, adt, s10 : inteiro
+
+Inicio
+
+   etanol <- 0
+   adt <- 0
+   s10 <- 0
+   escreva("Informe um codigo (1, 2, 3) ou 4 para parar: ")
+   leia(codigo)
+
+   enquanto codigo <> 4 faca
+
+      escolha codigo
+      caso 1
+        etanol <- etanol + 1
+      caso 2
+         adt <- adt + 1
+      caso 3
+         s10 <- s10 + 1
+      fimescolha
+
+      escreva("Informe um codigo (1, 2, 3) ou 4 para parar: ")
+      leia(codigo)
+
+   fimenquanto
+
+   escreval("MUITO OBRIGADO")
+   escreval("Alcool: ", etanol)
+   escreval("Gasolina: ", adt)
+   escreval("Diesel: ", s10)
+
+Fimalgoritmo

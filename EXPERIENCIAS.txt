@@ -1,0 +1,50 @@
+Algoritmo "experiencias"
+
+Var
+n,i,qtd,tcobaia,tsapos,tcoelhos,tratos:inteiro
+pratos,pcoelhos,psapos:real
+tipoCobaia:caractere
+
+Inicio
+tratos <- 0
+tsapos <- 0
+tcoelhos <- 0
+
+escreva("Quantos testes serão digitados ?:")
+leia(n)
+
+para i de 1 ate n faca
+  escreva("Quantidade de cobaias:")
+  leia(qtd)
+  escreva("Tipo de cobaia:")
+  leia(tipoCobaia)
+
+  se tipoCobaia = "R" entao
+    tratos <- tratos + qtd
+  senao
+    se tipoCobaia = "S" entao
+      tsapos <- tsapos + qtd
+    senao
+      tcoelhos <- tcoelhos +qtd
+    fimse
+  fimse
+fimpara
+
+tcobaia <-  tratos + tsapos + tcoelhos
+
+pratos <- tratos/tcobaia*100
+psapos <- tsapos/tcobaia*100
+pcoelhos <- tcoelhos/tcobaia*100
+
+escreval
+escreval("RELATORIO FINAL")
+escreval("TOTAL",tcobaia ,"cobaias")
+escreval("Total de coelhos:",tcoelhos)
+escreval("Total de ratos:",tratos)
+escreval("Total de sapos:",tsapos)
+escreval("Percentual de sapos:",psapos:4:2)
+escreval("Percentual de ratos:",pratos:4:2)
+escreval("Percentual de coelhos:",pcoelhos:4:2)
+
+
+Fimalgoritmo
