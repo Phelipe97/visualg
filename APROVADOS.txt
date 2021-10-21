@@ -1,0 +1,28 @@
+Algoritmo "Aprovados"
+
+Var
+N,i:inteiro
+media:real
+Nome:vetor [0..99]de caractere
+n1:vetor[0..99]de real
+n2:vetor[0..99]de real
+Inicio
+escreva("Quantos alunos seraão digitados:")
+leia(N)
+
+para i de 0 ate N-1 faca
+   escreval("Digite nome, primeira e segunda nota do ",i+1,"o aluno")
+   leia(Nome [i])
+   leia(n1 [i])
+   leia(n2 [i])
+fimpara
+
+escreval("ALUNOS APROVADOS:")
+
+para i de 0 ate N-1 faca
+   media<- (n1[i]+n2[i])/2
+   se media >= 6 entao
+     escreval(Nome [i])
+   fimse
+fimpara
+Fimalgoritmo
